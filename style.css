@@ -1,0 +1,20 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; color: #f3f2ee; background: #111110; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.7; font-size: 16px; }
+header, main, footer { width: min(760px, 100%); margin: 0 auto; padding: 24px; }
+header { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; flex-wrap: wrap; border-bottom: 1px solid #363631; }
+header > a { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; text-decoration: none; }
+header img { flex: 0 0 32px; }
+nav { display: flex; flex-wrap: wrap; gap: 20px; }
+main { padding-top: 40px; padding-bottom: 48px; }
+a { color: #d6bd90; text-underline-offset: 4px; overflow-wrap: anywhere; }
+a:hover { color: #ffffff; }
+a:focus-visible { outline: 2px solid #8dbcb1; outline-offset: 5px; }
+[aria-current="page"] { color: #ffffff; }
+h1 { margin: 8px 0 22px; font-size: 32px; line-height: 1.25; overflow-wrap: anywhere; }
+h2 { margin: 32px 0 12px; font-size: 21px; line-height: 1.4; }
+p { margin: 12px 0; }
+code { color: #a8cfbc; overflow-wrap: anywhere; font-size: 14px; }
+.label { color: #d6bd90; font-size: 14px; }
+footer { border-top: 1px solid #363631; color: #b5b5ae; font-size: 14px; }
+@media (max-width: 480px) { header, main, footer { padding-left: 20px; padding-right: 20px; } }

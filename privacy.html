@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Confidentialit&eacute; | BookInk Backups</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a href="index.html"><img src="logo.png" width="32" height="32" alt="">BookInk Backups</a><nav aria-label="Informations"><a href="privacy.html" aria-current="page">Confidentialit&eacute;</a><a href="terms.html">Conditions</a></nav></header>
+  <main>
+    <h1>Confidentialit&eacute;</h1>
+    <p>Cette politique concerne uniquement le programme priv&eacute; <strong>BookInk Backups</strong>, pas la r&eacute;servation de tatouages ni l'application client BookInk.</p>
+    <h2>Acc&egrave;s Google limit&eacute;</h2>
+    <p>Le propri&eacute;taire autorise la connexion Google et s&eacute;lectionne son dossier de sauvegarde. Le programme utilise uniquement <code>https://www.googleapis.com/auth/drive.file</code> : l'acc&egrave;s aux fichiers et dossiers s&eacute;lectionn&eacute;s ou cr&eacute;&eacute;s avec ce programme. Cette permission Google permet la lecture et la gestion de ces fichiers ; le programme est configur&eacute; pour ajouter et v&eacute;rifier les copies, sans modifier leurs permissions ni supprimer automatiquement les anciennes copies.</p>
+    <p>Il lit l'adresse e-mail du compte Google pour v&eacute;rifier son propri&eacute;taire, l'espace de stockage disponible, les m&eacute;tadonn&eacute;es du dossier et des copies autoris&eacute;es, ainsi que leurs permissions. Il &eacute;crit les archives chiffr&eacute;es puis relit leurs octets pour v&eacute;rifier leur int&eacute;grit&eacute;. Il ne demande aucun acc&egrave;s &agrave; Gmail, aux contacts ou &agrave; Google Agenda.</p>
+    <h2>Utilisation des donn&eacute;es</h2>
+    <p>Ces donn&eacute;es Google sont utilis&eacute;es uniquement pour authentifier le propri&eacute;taire, contr&ocirc;ler la destination et sa confidentialit&eacute;, enregistrer les copies et v&eacute;rifier leur int&eacute;grit&eacute;. Elles ne servent pas &agrave; la publicit&eacute;, au profilage commercial ou &agrave; l'entra&icirc;nement d'une intelligence artificielle, et ne sont pas vendues.</p>
+    <p>Le traitement des donn&eacute;es Google est limit&eacute; &agrave; ces fonctions, conform&eacute;ment au <a href="https://developers.google.com/terms/api-services-user-data-policy">r&egrave;glement Google sur les donn&eacute;es utilisateur des API et ses exigences d'utilisation limit&eacute;e</a>.</p>
+    <h2>Stockage et prestataires</h2>
+    <p>Les archives BookInk sont chiffr&eacute;es en AES-256-GCM avant leur envoi vers le dossier Google Drive priv&eacute;. La cl&eacute; n'est pas ajout&eacute;e au dossier Drive. Google h&eacute;berge les copies chiffr&eacute;es et les m&eacute;tadonn&eacute;es de fichiers.</p>
+    <p>GitHub Actions ex&eacute;cute le programme dans un d&eacute;p&ocirc;t priv&eacute;. Les identifiants de sauvegarde et le jeton Google permettant de renouveler l'acc&egrave;s sont conserv&eacute;s dans ses secrets chiffr&eacute;s, accessibles au programme autoris&eacute;. Lors de la configuration sur le Mac, les identifiants Google sont aussi conserv&eacute;s dans un fichier local chiffr&eacute;, avec des droits limit&eacute;s au propri&eacute;taire.</p>
+    <p>Les donn&eacute;es BookInk non chiffr&eacute;es n'existent que temporairement pendant la cr&eacute;ation de la copie. Le programme nettoie ses fichiers temporaires &agrave; la fin d'une ex&eacute;cution normale ou d'une erreur trait&eacute;e. Aucun dump, photo, cl&eacute; ou jeton n'est publi&eacute; dans cette page ou dans des artefacts GitHub. Les comptes rendus techniques peuvent conserver la date, le statut, des nombres de fichiers, leur taille, leur empreinte et l'identifiant de la copie Drive, sans les mots de passe ni les jetons.</p>
+    <h2>Conservation, arr&ecirc;t et suppression</h2>
+    <p>L'autorisation Google est conserv&eacute;e tant que le propri&eacute;taire utilise le programme, puis ses identifiants doivent &ecirc;tre retir&eacute;s du d&eacute;p&ocirc;t et du Mac lors de sa d&eacute;sactivation. Le propri&eacute;taire peut r&eacute;voquer la connexion depuis les connexions tierces de son compte Google. Cela arr&ecirc;te les futurs acc&egrave;s ; les copies d&eacute;j&agrave; cr&eacute;&eacute;es ne sont pas supprim&eacute;es par cette r&eacute;vocation.</p>
+    <p>Aucune suppression automatique des copies Drive n'est actuellement configur&eacute;e. Leur conservation et leur effacement sont g&eacute;r&eacute;s par le propri&eacute;taire dans Google Drive, en fonction de ses obligations et des demandes applicables. Une r&eacute;tention adapt&eacute;e doit &ecirc;tre d&eacute;finie avant la sauvegarde de donn&eacute;es de vrais clients.</p>
+    <h2>Cette page publique</h2>
+    <p>Cette page est statique et n'ajoute ni formulaire, ni cookie applicatif, ni outil de suivi publicitaire ou d'analyse d'audience. Son h&eacute;bergeur peut traiter les informations techniques habituelles de consultation selon sa propre politique.</p>
+    <h2>Contact</h2>
+    <p>Pour une question ou une demande concernant ce programme : <a href="mailto:bookink.officiel@gmail.com">bookink.officiel@gmail.com</a>.</p>
+  </main>
+  <footer>BookInk Backups &middot; Informations du 11 octobre 2026</footer>
+</body>
+</html>
